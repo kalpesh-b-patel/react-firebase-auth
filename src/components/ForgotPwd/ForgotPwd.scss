@@ -1,0 +1,28 @@
+@import '../../index.scss';
+
+.forgotpwd {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  .forgotpwd__form {
+    display: flex;
+    flex-direction: column;
+  }
+  .forgotpwd__submit,
+  .forgotpwd__login {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .forgotpwd__login {
+    align-items: center;
+  }
+}
+
+@media (min-width: 576px) {
+  .forgotpwd {
+    width: 576px;
+    margin: 10px auto;
+  }
+}

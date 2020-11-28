@@ -1,0 +1,9 @@
+@import '../../index.scss';
+
+footer {
+  background-color: $primaryColor;
+  .footer {
+    padding: 15px;
+    color: $secondaryColor;
+  }
+}

@@ -1,0 +1,42 @@
+$primaryColor: #1d3557;
+$secondaryColor: #eee;
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: inherit;
+  font-family: 'Heebo', sans-serif;
+}
+
+.btn {
+  padding: 10px;
+  background-color: $primaryColor;
+  color: $secondaryColor;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid $secondaryColor;
+}
+
+.btn:hover {
+  background-color: $secondaryColor;
+  color: $primaryColor;
+  border: 1px solid $primaryColor;
+}
+.link {
+  text-decoration: none;
+  color: $primaryColor;
+  font-weight: bold;
+}
+
+input {
+  padding: 5px;
+  font-size: 16px;
+}

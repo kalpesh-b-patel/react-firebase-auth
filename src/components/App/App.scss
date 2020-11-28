@@ -1,0 +1,13 @@
+.main-content {
+  min-height: calc(100vh - (72.8px + 53.2px + 10px));
+  // Total page height: 100vh
+  // Header: 72.8px
+  // Footer: 53.2px
+  // Margin: 10px
+}
+
+@media (min-width: 576px) {
+  .main-content {
+    min-height: calc(100vh - (49.6px + 53.2px + 10px));
+  }
+}

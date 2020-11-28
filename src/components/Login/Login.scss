@@ -1,0 +1,44 @@
+@import '../../index.scss';
+
+.login {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+
+  .login__form {
+    .input-group {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .login__submit {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    margin-top: 10px;
+  }
+
+  .login__forgotpwd {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    margin-top: 10px;
+    .link {
+      text-decoration: none;
+      color: $primaryColor;
+      font-weight: bold;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .login {
+    width: 576px;
+    margin: 10px auto;
+  }
+}
