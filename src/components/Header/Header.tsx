@@ -15,7 +15,7 @@ const Header = () => {
           <ul>
             <li><Link  to="/">Home</Link></li>
             { !user ? <li><Link  to="/login">Login</Link></li> : null }
-            <li><Link  to="/signup">Signup</Link></li>
+            { !user ? <li><Link  to="/signup">Signup</Link></li> : null }
           </ul>
         </nav>
       </div>
